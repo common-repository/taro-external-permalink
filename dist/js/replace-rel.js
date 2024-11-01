@@ -1,0 +1,2 @@
+/*! License information can be found in replace-rel.js.LICENSE.txt */
+!function(){const{tsepUrls:e}=window;if(0<e.length)for(const{url:r,original:n}of e)document.querySelectorAll(`a[href="${r}"]`).forEach((e=>{0>["prev","next"].indexOf(e.rel)?(e.target="_blank",e.rel="noopener noreferrer"):e.href=n}))}();

@@ -1,0 +1,2 @@
+/*! License information can be found in media-selector.js.LICENSE.txt */
+!function(){const e=jQuery,{__:__}=wp.i18n;e(document).ready((function(){let t;e("#tsep-media-chooser").click((function(n){n.preventDefault(),t||(t=wp.media({title:__("Select Media to Link","tsep"),multiple:!1}),t.on("close",(function(){t.state().get("selection").each((function(t){e('input[name="external-permalink"]').val(t.attributes.url)}))}))),t.open()}))}))}();

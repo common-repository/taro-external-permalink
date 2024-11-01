@@ -1,0 +1,6 @@
+/*!
+ * Replace rel on automatic approach
+ *
+ * @handle tsep-replace-rel
+ * @package tsep
+ */

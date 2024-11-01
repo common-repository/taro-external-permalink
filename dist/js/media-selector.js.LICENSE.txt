@@ -1,0 +1,7 @@
+/*!
+ * Media selector.
+ *
+ * @handle tsep-media-selector
+ * @deps jquery, wp-i18n
+ * @package tsep
+ */
